@@ -12,7 +12,7 @@ module.exports = {
     contentBase: path.join(__dirname, `${entryPath}`),
     publicPath: "/build/",
     compress: true,
-    port: 3001,
+    port: 8001,
     historyApiFallback: true
   },
   module: {
@@ -21,7 +21,23 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: "babel-loader"
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader"
+          },
+          {
+            loader: "sass-loader"
+          }
+        ]
       }
     ]
-  }
+
+  },
+
 };
