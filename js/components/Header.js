@@ -38,6 +38,9 @@ function Nav() {
     return (
         <>
            <nav>
+               <div><a href="">Main</a></div>
+               <div><a href="">Other project</a></div>
+               <div><a href="">Contact</a></div>
            </nav>
         </>
     )

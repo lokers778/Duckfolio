@@ -1,0 +1,26 @@
+.gallery {
+  background-image: linear-gradient(to top, #f69a10, #f5a638, #f3b255, #f2bd70, #f0c88b);
+  .container{
+
+  }
+  figure{
+    width: 80%;
+    height: 550px;
+    position: relative;
+    z-index: 1;
+    img{
+      width:100%;
+      height:100%;
+      z-index: 2;
+
+
+    }
+    figcaption{
+      position: absolute;
+      background-color: white;
+      z-index: 10;
+      width: 100%;
+      height: 40px;
+    }
+  }
+}
