@@ -1,18 +1,17 @@
 const path = require("path");
-const entryPath = "js";
 const entryFile = "App.js";
 
 module.exports = {
-  entry: `./${entryPath}/${entryFile}`,
+  entry: `./js/${entryFile}`,
   output: {
     filename: "out.js",
-    path: path.resolve(__dirname, `${entryPath}/build`)
+    path: path.resolve(`./js/build`)
   },
   devServer: {
-    contentBase: path.join(__dirname, `${entryPath}`),
-    publicPath: "/build/",
+    contentBase: path.join(__dirname, `.`),
+    publicPath: "/js/build/",
     compress: true,
-    port: 8001,
+    port: 3001,
     historyApiFallback: true
   },
   module: {
