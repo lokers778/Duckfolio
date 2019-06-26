@@ -1,7 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "./components/Header.js"
+import DuckGallery from "./components/duckGallery.js"
+import DuckApp from "./components/duckApp.js"
+import AboutMe from "./components/aboutMe.js"
+import Footer from "./components/Footer.js"
 
-ReactDOM.render(
-<h1>Hello test 23344assafsafs</h1>,
+function App() {
+    return (
+        <div>
+        <Header/>
+        <DuckGallery/>
+            <DuckApp/>
+            <AboutMe/>
+        <Footer/>
+</div>
+
+
+        )
+
+}
+
+ReactDOM.render(<App/>,
 document.getElementById("root")
 );
