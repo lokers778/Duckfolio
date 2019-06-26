@@ -1,0 +1,198 @@
+header{
+  background-color: $main-color;
+  height: 130px;
+  .container{
+    display: flex;
+    height: 100%;
+  }
+  .logo{
+    flex: 1;
+    font-size: 30px;
+    color: $secondary-color;
+    font-family: 'Audiowide', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav{
+    width:30%;
+  }
+  .duck{
+    transform: scale(0.7);
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  min-width: 100px;
+  }
+  .duckBody
+  {
+    z-index: 1;
+    background-color: gold;
+    height: 100px;
+    width: 80px;
+    border-radius:70%/ 90% 90% 50% 50%;
+    position:relative;
+    border:0.5px solid black;
+
+
+  }
+  .leftWing{
+    width: 30px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: gold;
+    position: absolute;
+    transform: rotate(45deg);
+    bottom:7px;
+    left:-21px;
+    animation-name: wingUpLeft;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    border:0.5px solid black;
+  }
+  .rightWing{
+    width: 30px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: gold;
+    position: absolute;
+    transform: rotate(-45deg);
+    left:65px;
+    bottom: 7px;
+    animation-name: wingUpRight;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    border:0.5px solid black;
+    z-index: -1;
+  }
+  .duckBody:after
+  {
+    z-index: 3;
+    display: block;
+    content:" ";
+    background-color: white;
+    height: 100px;
+    width: 80px;
+    border-radius:70%/ 90% 90% 50% 50%;
+    position:absolute;
+    transform: scale(0.5);
+    border:0.5px solid black;
+  }
+  .duckHead{
+    background-color: gold;
+    height: 75px;
+    width: 80px;
+    border-radius: 50%;
+    position:absolute;
+    left: 40px;
+    bottom:60px;
+    transform: translate(-50%, 0);
+    z-index: 5;
+    border:0.5px solid black;
+  }
+  .rightEye{
+    position:absolute;
+    height: 20px;
+    width: 20px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background-color: white;
+    top:15px;
+    right: 13px;
+    z-index: 5;
+  }
+  .rightEye:after{
+    display: block;
+    content:" ";
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    position:relative;
+    transform: scale(0.5) translate(9px, 0px);
+    z-index: 6;
+    top:5px;
+    animation-name: moveEyes;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  .leftEye{
+    position:absolute;
+    height: 20px;
+    width: 20px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background-color: white;
+    right: 47px;
+    top:15px;
+    z-index: 5;
+  }
+  .leftEye:after{
+    display: block;
+    content:" ";
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    position:relative;
+    transform: scale(0.5) translate(9px, 0px);
+    z-index: 6;
+    top:5px;
+    animation-name: moveEyes;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  .upperBeak{
+    width:20px;
+    height:7px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    right: 30px;
+    top: 49px;
+    border:solid 0.5px black;
+    z-index: 6;
+  }
+  .bottomBeak{
+    width:18px;
+    height:7px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    right: 31px;
+    top: 52px;
+    border:solid 0.5px black;
+    z-index: 5}
+  @keyframes wingUpRight {
+    0%   {transform: rotate(-45deg)}
+
+
+    100% {transform:rotate(-70deg)}
+  }
+  @keyframes wingUpLeft {
+    0%   {transform: rotate(45deg)}
+
+
+    100% {transform:rotate(70deg)}
+  }
+  @keyframes moveEyes {
+    0% {transform: scale(0.5) translate(9px, 0px);}
+
+    100%{ transform: scale(0.5) translate(-10px, 0px);}
+  }
+
+
+}
