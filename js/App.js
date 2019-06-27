@@ -9,18 +9,16 @@ import Footer from "./components/Footer.js"
 function App() {
     return (
         <>
-        <Header/>
-        <DuckGallery/>
+            <Header/>
+            <DuckGallery/>
             <DuckApp/>
             <AboutMe/>
-        <Footer/>
-</>
-
-
-        )
+            <Footer/>
+        </>
+    )
 
 }
 
 ReactDOM.render(<App/>,
-document.getElementById("root")
+    document.getElementById("root")
 );

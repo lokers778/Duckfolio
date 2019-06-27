@@ -1,0 +1,109 @@
+.app{
+  background: rgb(245,154,20);
+  background: linear-gradient(to bottom, rgba(245,154,20,1) 0%, rgba(82,82,77,1) 79%);
+  .container{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+
+  >div{
+    position:relative;
+    width: 10vw;
+    height: 10vw;
+    background-color: $secondary-color;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: rotateApp;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    > div:nth-child(1){
+      position: absolute;
+      width: 75%;
+      height: 75%;
+      background-color: $main-color;
+      top:-90%;
+      right: 13%;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation-name: rotateAppSingle;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+    > div:nth-child(2){
+      position: absolute;
+      width: 75%;
+      height: 75%;
+      background-color: $main-color;
+      bottom:-90%;
+      right: 13%;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation-name: rotateAppSingle;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+    > div:nth-child(3){
+      position: absolute;
+      width: 75%;
+      height: 75%;
+      background-color: $main-color;
+      bottom:13%;
+      left: -90%;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation-name: rotateAppSingle;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+    > div:nth-child(4){
+      position: absolute;
+      width: 75%;
+      height: 75%;
+      background-color: $main-color;
+      bottom:13%;
+      right: -90%;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation-name: rotateAppSingle;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+    > div:nth-child(5){
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation-name: rotateAppSingle;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+  }
+  }
+}
+@keyframes rotateApp {
+  0%{transform: rotate(0deg)}
+  100%{transform: rotate(360deg)}
+}
+@keyframes rotateAppSingle {
+  0%{transform: rotate(0deg)}
+  100%{transform: rotate(-360deg)}
+}

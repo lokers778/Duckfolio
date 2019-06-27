@@ -1,7 +1,20 @@
 import React from "react"
 
 function DuckApp() {
-    return (<h1>this is App</h1>)
+    return (
+        <section className="app">
+        <div className="container">
+
+            <div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+                <div>App</div>
+    </div>
+        </div>
+        </section>
+    )
 }
 
 export default DuckApp;
