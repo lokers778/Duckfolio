@@ -1,19 +1,17 @@
 .app{
-  background: rgb(245,154,20);
-  background: linear-gradient(to bottom, rgba(245,154,20,1) 0%, rgba(82,82,77,1) 79%);
+ background-color: $main-color;
   .container{
 display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    flex-direction: column;
 
 
-  >div{
-    position:relative;
+  >div {
+    position: relative;
     width: 10vw;
     height: 10vw;
-    background-color: $secondary-color;
+    background-color: gray;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -22,15 +20,15 @@ display: flex;
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    margin-top: 220px;
+    margin-bottom: 220px;
 
-    > div:nth-child(1){
+    > div {
       position: absolute;
       width: 75%;
+      overflow: hidden;
       height: 75%;
-      background-color: $main-color;
-      top:-90%;
-      right: 13%;
-      border-radius: 50%;
+      background-color: $secondary-color;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -38,72 +36,94 @@ display: flex;
       animation-duration: 30s;
       animation-iteration-count: infinite;
       animation-timing-function: linear;
-    }
-    > div:nth-child(2){
-      position: absolute;
-      width: 75%;
-      height: 75%;
-      background-color: $main-color;
-      bottom:-90%;
-      right: 13%;
+      transition: 1s;
       border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      animation-name: rotateAppSingle;
-      animation-duration: 30s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-    }
-    > div:nth-child(3){
-      position: absolute;
-      width: 75%;
-      height: 75%;
-      background-color: $main-color;
-      bottom:13%;
+      color:whitesmoke;
+      font-size: 30px;
+      span{
+        display: none;
+      }
+      .icon{
+        display: block;
+      }
+
+      &:hover {
+        background-color: #fac16b;
+        width: 80%;
+        height: 80%;
+        transition: 1s;
+        cursor: pointer;
+        span{
+          display: block;
+        }
+        .icon{
+          display: none;
+        }
+      }
+
+
+      &:nth-child(1) {
+        top: -90%;
+        right: 13%;
+      }
+
+      &:nth-child(2) {
+
+        bottom: -90%;
+        right: 13%;
+      }
+
+    &:nth-child(3) {
+      bottom: 13%;
       left: -90%;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      animation-name: rotateAppSingle;
-      animation-duration: 30s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
     }
-    > div:nth-child(4){
-      position: absolute;
-      width: 75%;
-      height: 75%;
-      background-color: $main-color;
-      bottom:13%;
+
+    &:nth-child(4) {
+      bottom: 13%;
       right: -90%;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      animation-name: rotateAppSingle;
-      animation-duration: 30s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
     }
-    > div:nth-child(5){
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      animation-name: rotateAppSingle;
-      animation-duration: 30s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
+
+    &:nth-child(5) {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-color: inherit;
+      transition: 2s;
+      font-size: 25px;
+     .icon{ font-size: 45px;}
+
+      &:hover {
+        background-color: darkgrey;
+        width: 110%;
+        height: 110%;
+        transition: 1s;
+        cursor: pointer;
+
+      }
     }
   }
+  }
+    h2{
+      align-self: center ;
+      justify-self: flex-start;
+      text-align: center;
+      border-bottom: 2px whitesmoke solid;
+      color:white;
+      font-size: 25px;
+      text-shadow: -5px 5px 6px white;
+
+    }
   }
 }
 @keyframes rotateApp {
-  0%{transform: rotate(0deg)}
+  0%{transform: rotate(0deg) scale(1)}
   100%{transform: rotate(360deg)}
 }
 @keyframes rotateAppSingle {
-  0%{transform: rotate(0deg)}
+  0%{transform: rotate(0deg) scale(1)}
   100%{transform: rotate(-360deg)}
+}
+@keyframes scale {
+  0%{transform:  scale(1)}
+  100%{transform: scale(5)}
 }

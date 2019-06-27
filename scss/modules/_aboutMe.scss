@@ -1,0 +1,50 @@
+.aboutMeSection{
+  background-color: gray;
+  .container{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .myDescription{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    border: $main-color solid 1px;
+  }
+  .buttonTabs{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    button{
+      transition: 2s;
+      height: 33.333%;
+      background-color: $main-color;
+      border: solid darkgrey 2px;
+      font-size: 20px;
+      color:whitesmoke;
+      outline: none;
+      &:hover{
+        background-color:orange;
+        transition: 2s;
+        font-weight: 700;
+      }
+      &:focus{
+
+        background-color: darkgrey;
+        transition: 2s;
+        font-weight: 900;
+      }
+    }
+  }
+  .description{
+    flex:3.5;
+    display:none;
+    background-color: darkgrey;
+
+  }
+  #AboutMe{
+    display: block;
+  }
+}
