@@ -1,7 +1,7 @@
 .aboutMeSection{
   background-color: gray;
   .container{
-    height: 600px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,8 +43,35 @@
     display:none;
     background-color: darkgrey;
 
+    .horizontalTabsButton{
+      background-color: inherit;
+      height: 10%;
+      display: flex;
+      button {
+        flex: 1;
+        outline: none;
+        background-color: $main-color;
+        border: 1px solid gray;
+        transition: 2s;
+        font-size: 18px;
+        color: whitesmoke;
+
+        &:hover {
+          background-color: orange;
+          transition: 2s;
+          font-weight: 700;
+        }
+        &:focus{
+
+          background-color: darkgrey;
+          transition: 2s;
+          font-weight: 900;
+          border:none;
+        }
+      }
+    }
   }
-  #AboutMe{
+  #MySkills{
     display: block;
   }
 }
