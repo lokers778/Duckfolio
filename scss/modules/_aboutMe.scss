@@ -29,6 +29,7 @@
         background-color:orange;
         transition: 2s;
         font-weight: 700;
+        cursor : pointer;
       }
       &:focus{
 
@@ -42,11 +43,19 @@
     flex:3.5;
     display:none;
     background-color: darkgrey;
+    >div:nth-of-type(2){
+      background-color: inherit;
+      height: 90%;
+      text-align: center;
+      font-size: 22px;
+      padding: 3% 6%;
+    }
 
     .horizontalTabsButton{
       background-color: inherit;
       height: 10%;
       display: flex;
+
       button {
         flex: 1;
         outline: none;
@@ -60,6 +69,7 @@
           background-color: orange;
           transition: 2s;
           font-weight: 700;
+          cursor :pointer;
         }
         &:focus{
 
@@ -71,5 +81,11 @@
       }
     }
   }
-
+  #DuckStory>div{
+    height: 100%;
+    background-color: inherit;
+    text-align: center;
+    font-size: 22px;
+    padding: 3% 6%;
+  }
 }

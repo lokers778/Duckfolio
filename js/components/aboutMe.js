@@ -17,7 +17,7 @@ class AboutMeComponent extends Component {
             display5: "none",
         })
     }
-    handeClick2=()=> {
+    handeClick2 = () => {
         this.setState({
             display1: "none",
             display2: "block",
@@ -26,7 +26,7 @@ class AboutMeComponent extends Component {
             display5: "none",
         })
     }
-    handeClick3=()=> {
+    handeClick3 = () => {
         this.setState({
             display1: "none",
             display2: "none",
@@ -35,7 +35,7 @@ class AboutMeComponent extends Component {
             display5: "none",
         })
     }
-    handeClick4=()=> {
+    handeClick4 = () => {
         this.setState({
             display1: "none",
             display2: "none",
@@ -44,7 +44,7 @@ class AboutMeComponent extends Component {
             display5: "none",
         })
     }
-    handeClick5=()=> {
+    handeClick5 = () => {
         this.setState({
             display1: "none",
             display2: "none",
@@ -53,6 +53,7 @@ class AboutMeComponent extends Component {
             display5: "block",
         })
     }
+
     render() {
         return (
             <div id="AboutMe" className="description" style={{display: this.props.block}}>
@@ -64,19 +65,19 @@ class AboutMeComponent extends Component {
                     <button onClick={this.handeClick5}>Hobby</button>
                 </div>
                 <div className="AboutMeDescriptions">
-                    <div className="MyPersona" style={{display:this.state.display1}}>
+                    <div className="MyPersona" style={{display: this.state.display1}}>
                         1
                     </div>
-                    <div className="Education" style={{display:this.state.display2}}>
+                    <div className="Education" style={{display: this.state.display2}}>
                         2
                     </div>
-                    <div className="Experience" style={{display:this.state.display3}}>
+                    <div className="Experience" style={{display: this.state.display3}}>
                         3
                     </div>
-                    <div className="Plans" style={{display:this.state.display4}}>
+                    <div className="Plans" style={{display: this.state.display4}}>
                         4
                     </div>
-                    <div className="Hobby" style={{display:this.state.display5}}>
+                    <div className="Hobby" style={{display: this.state.display5}}>
                         5
                     </div>
 
@@ -88,7 +89,7 @@ class AboutMeComponent extends Component {
 
 class MySkillsComponent extends Component {
     state = {
-        display1: "none",
+        display1: "block",
         display2: "none",
         display3: "none",
         display4: "none",
@@ -103,7 +104,7 @@ class MySkillsComponent extends Component {
             display5: "none",
         })
     }
-    handeClick2=()=> {
+    handeClick2 = () => {
         this.setState({
             display1: "none",
             display2: "block",
@@ -112,7 +113,7 @@ class MySkillsComponent extends Component {
             display5: "none",
         })
     }
-    handeClick3=()=> {
+    handeClick3 = () => {
         this.setState({
             display1: "none",
             display2: "none",
@@ -121,7 +122,7 @@ class MySkillsComponent extends Component {
             display5: "none",
         })
     }
-    handeClick4=()=> {
+    handeClick4 = () => {
         this.setState({
             display1: "none",
             display2: "none",
@@ -130,7 +131,7 @@ class MySkillsComponent extends Component {
             display5: "none",
         })
     }
-    handeClick5=()=> {
+    handeClick5 = () => {
         this.setState({
             display1: "none",
             display2: "none",
@@ -139,6 +140,7 @@ class MySkillsComponent extends Component {
             display5: "block",
         })
     }
+
     render() {
         return (
             <div id="MySkills" className="description" style={{display: this.props.block}}>
@@ -150,20 +152,20 @@ class MySkillsComponent extends Component {
                     <button onClick={this.handeClick5}>General</button>
                 </div>
                 <div className="MySkillDescriptions">
-                    <div className="htmlCSS" style={{display:this.state.display1}}>
+                    <div className="htmlCSS" style={{display: this.state.display1}}>
                         11
                     </div>
 
-                    <div className="jsJquery" style={{display:this.state.display2}}>
+                    <div className="jsJquery" style={{display: this.state.display2}}>
                         22
                     </div>
-                    <div className="React" style={{display:this.state.display3}}>
+                    <div className="React" style={{display: this.state.display3}}>
                         33
                     </div>
-                    <div className="Tech" style={{display:this.state.display4}}>
+                    <div className="Tech" style={{display: this.state.display4}}>
                         44
                     </div>
-                    <div className="General" style={{display:this.state.display5}}>
+                    <div className="General" style={{display: this.state.display5}}>
                         55
                     </div>
                 </div>
@@ -177,9 +179,11 @@ class WhyDuckComponent extends Component {
 
     render() {
         return (
-            <div id="My story" className="description" style={{display: this.props.block}}>
-                <h2>Why Ducks</h2>
-                <p>Because i love them</p>
+            <div id="DuckStory" className="description" style={{display: this.props.block}}>
+                <div>
+                    <h2>Why Ducks</h2>
+                    <p>Because i love them</p>
+                </div>
             </div>
         )
     }

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08792b6-c2ae-4a3e-898b-5dca3b683a9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/components/aboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/aboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/duckApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/duckApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/modules/_aboutMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_aboutMe.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/modules/_project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_project.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,27 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/components/ToDoList.js">
+        <entry file="file://$PROJECT_DIR$/js/components/duckApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/components/duckGallery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="1" column="50" lean-forward="true" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-              <folding>
-                <element signature="n#Hours#0" />
-                <element signature="n#DuckGallery#0" />
-                <element signature="n#!!block;n#componentDidMount#0;n#DuckGallery#0" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -44,21 +31,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/components/aboutMe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="141" column="14" lean-forward="true" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
-              <folding>
-                <element signature="e#2662#2783#0" />
-                <element signature="e#2821#2942#0" />
-              </folding>
+            <state relative-caret-position="203">
+              <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/data/ToDoList_data.js">
+        <entry file="file://$PROJECT_DIR$/scss/modules/_project.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="6">
+              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
             </state>
           </provider>
         </entry>
@@ -82,6 +65,8 @@
       <find>clas</find>
       <find>conso</find>
       <find>disp</find>
+      <find>my</find>
+      <find>wid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,10 +86,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/modules/_footer.scss" />
         <option value="$PROJECT_DIR$/js/data/galeryimg_data.js" />
-        <option value="$PROJECT_DIR$/scss/modules/_project.scss" />
         <option value="$PROJECT_DIR$/js/components/Header.js" />
         <option value="$PROJECT_DIR$/scss/modules/_duckGallery.scss" />
-        <option value="$PROJECT_DIR$/js/components/duckApp.js" />
         <option value="$PROJECT_DIR$/js/components/Footer.js" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/scss/modules/_calcApp.scss" />
@@ -114,6 +97,8 @@
         <option value="$PROJECT_DIR$/js/components/ToDoList.js" />
         <option value="$PROJECT_DIR$/js/components/duckGallery.js" />
         <option value="$PROJECT_DIR$/scss/modules/_aboutMe.scss" />
+        <option value="$PROJECT_DIR$/js/components/duckApp.js" />
+        <option value="$PROJECT_DIR$/scss/modules/_project.scss" />
         <option value="$PROJECT_DIR$/js/components/aboutMe.js" />
       </list>
     </option>
@@ -231,19 +216,19 @@
       <workItem from="1561568190813" duration="7106000" />
       <workItem from="1561588101160" duration="1256000" />
       <workItem from="1561614820236" duration="22158000" />
-      <workItem from="1561652101943" duration="22236000" />
+      <workItem from="1561652101943" duration="27495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69680000" />
+    <option name="totallyTimeSpent" value="74939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="25" width="1920" height="990" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16394307" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982079" visible="true" weight="0.16394307" />
+      <window_info id="Structure" order="1" sideWeight="0.50179213" side_tool="true" visible="true" weight="0.16394307" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -254,7 +239,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49868214" visible="true" weight="0.35191637" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49868214" visible="true" weight="0.35191637" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50131786" side_tool="true" weight="0.35191637" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -274,7 +259,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/components/aboutMe.js</url>
-          <line>219</line>
+          <line>223</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -311,13 +296,6 @@
     <entry file="file://$PROJECT_DIR$/img/DUCK-5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/modules/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210">
@@ -336,13 +314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_project.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-536">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -398,13 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -442,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_calcApp.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -463,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/components/duckApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/data/galeryimg_data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -477,10 +427,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_aboutMe.scss">
+    <entry file="file://$PROJECT_DIR$/js/data/ToDoList_data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -491,6 +441,13 @@
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_aboutMe.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -506,21 +463,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/data/ToDoList_data.js">
+    <entry file="file://$PROJECT_DIR$/js/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_calcApp.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+          <caret column="7" selection-start-column="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_project.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/components/duckApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/components/aboutMe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="141" column="14" lean-forward="true" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
-          <folding>
-            <element signature="e#2662#2783#0" />
-            <element signature="e#2821#2942#0" />
-          </folding>
+        <state relative-caret-position="203">
+          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
         </state>
       </provider>
     </entry>

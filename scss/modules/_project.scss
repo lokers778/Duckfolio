@@ -113,6 +113,33 @@ display: flex;
       text-shadow: -5px 5px 6px white;
 
     }
+    section.AppDisplay{
+      width: 80%;
+      height: 80%;
+      position: fixed;
+      background-color: darkgrey;
+      z-index: 1;
+      top: 10%;
+      margin:0 auto;
+      border:8px solid whitesmoke;
+      box-shadow: -8px 3px 169px 200px rgba(82,82,77,1);
+      border-radius: 10%;
+      button{
+        position: absolute;
+        left: 90%;
+        width: 10%;
+        height: 8%;
+        background-color: white;
+        border: none;
+        border-top-right-radius: 90%;
+        font-size: 20px;
+        color:$secondary-color;
+        &:hover{
+          background-color: $secondary-color;
+          transition: 1s;
+          }
+      }
+    }
   }
 }
 @keyframes rotateApp {
