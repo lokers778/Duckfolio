@@ -20,7 +20,6 @@ class Hours extends Component {
     }
 }
 
-
 class ImgComponents extends Component {
     render() {
         return (
@@ -35,10 +34,6 @@ class ImgComponents extends Component {
     }
 }
 const imgComponentsarray=imageData.map((img)=><ImgComponents key={img.id} imgAtr={img}/>);
-
-
-
-
 
 class DuckGallery extends Component {
     state = {
@@ -64,8 +59,6 @@ class DuckGallery extends Component {
     }
     render() {
         const Nr=this.state.index;
-        console.log(Nr);
-        console.log(imgComponentsarray[Nr-1])
         return (
             <section className="gallery">
                 <div className="container">
