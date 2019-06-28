@@ -21,6 +21,7 @@ class Hours extends Component {
 }
 
 class ImgComponents extends Component {
+
     render() {
         return (
 
@@ -57,7 +58,9 @@ class DuckGallery extends Component {
     componentWillUnmount(){
         clearInterval(this.intervalId);
     }
-    render() {
+    render()
+
+    {
         const Nr=this.state.index;
         return (
             <section className="gallery">
