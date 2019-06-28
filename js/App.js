@@ -5,6 +5,8 @@ import DuckGallery from "./components/duckGallery.js"
 import DuckApp from "./components/duckApp.js"
 import AboutMe from "./components/aboutMe.js"
 import Footer from "./components/Footer.js"
+import CalculatorApp from "./components/Calculator";
+import ToDoListComponent from "./components/ToDoList";
 
 function App() {
     return (
@@ -14,6 +16,8 @@ function App() {
             <DuckApp/>
             <AboutMe/>
             <Footer/>
+            <CalculatorApp/>
+            <ToDoListComponent/>
         </>
     )
 
