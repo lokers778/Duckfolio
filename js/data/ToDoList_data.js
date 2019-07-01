@@ -1,33 +1,34 @@
-const toDoData = [
+const projectData = [
     {
-        id: 1,
-        text: "Make simple Layout",
-        completed: true
+        id: "1",
+        imgUrl:"img/Projects/JapanCharm.png",
+        title:"JapanCharm",
+        text:"ważny opis",
     },
     {
-        id: 2,
-        text: "Make to do List",
-        completed: true
+        id: "2",
+        imgUrl:"img/Projects/HungDuck.png",
+        title:"JapanCharm",
+        text:"ważny opis",
+    },
+
+    {
+        id: "3",
+        imgUrl:"img/Projects/SitOnChair.png",
+        title:"JapanCharm",
+        text:"ważny opis",
     },
     {
-        id: 3,
-        text: "Make Calculator",
-        completed: true
+        id: "4",
+        imgUrl:"img/Projects/CollectBread.png",
+        title:"JapanCharm",
+        text:"ważny opis",
     },
     {
-        id: 4,
-        text: "Add RWD",
-        completed: false
+        id:"5",
+        imgUrl:"img/Projects/working.png",
+        title:"Work in progress",
+        text:"ważny opis",
     },
-    {
-        id:5,
-        text:"Add duck everywhere!!",
-        completed:true
-    },
-    {
-        id: 6,
-        text: "Find a job",
-        completed: false
-    }
 ]
-export default toDoData
+export default projectData

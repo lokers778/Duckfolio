@@ -46,7 +46,7 @@ class DuckApp extends Component {
                         <SingleApp name="fab fa-react" text='React App' show={this.showApp} content="React"/>
 
                     </div>
-                    <section className="AppDisplay"  style={{display:this.state.display}}><div>{this.state.content}</div><button className="closeApp" onClick={this.closeApp}><i className="fas fa-times"></i></button></section>
+                    <section className="AppDisplay"  style={{display:this.state.display}}><div className="AppContainer">{this.state.content}</div><button className="closeApp" onClick={this.closeApp}><i className="fas fa-times"></i></button></section>
                 </div>
             </section>
         )

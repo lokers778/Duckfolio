@@ -7,12 +7,12 @@ import AboutMe from "./components/aboutMe.js"
 import Footer from "./components/Footer.js"
 import CalculatorApp from "./components/Calculator";
 import ToDoListComponent from "./components/ToDoList";
+import OtherProjects from "./components/OtherProjects";
+import Contact from "./components/Form";
 import {
     HashRouter,
     Route,
-    Link,
     Switch,
-    NavLink,
 } from 'react-router-dom';
 class Main extends Component{
     render() {
@@ -26,26 +26,8 @@ class Main extends Component{
         )
     }
 }
-class OtherProjects extends Component{
-    render() {
-        return (
-            <>
-                <h2>Inne projekty</h2>
 
-            </>
-        )
-    }
-}
-class Contact extends Component{
-    render() {
-        return (
-            <>
-                <h1>kontakt</h1>
 
-            </>
-        )
-    }
-}
 class NotFound extends Component {
     render() {
         return <h1>404,Nothing is here</h1>;

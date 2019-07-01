@@ -1,11 +1,7 @@
 import React, {Component} from "react";
-import ReactDOM from 'react-dom';
 import {
     HashRouter,
-    Route,
     Link,
-    Switch,
-    NavLink,
 }from 'react-router-dom';
 
 class Duck extends Component {
@@ -54,8 +50,8 @@ class Nav extends Component {
                 <HashRouter>
                 <nav>
                     <Link to="/"><div>Main</div></Link>
-                    <Link to="/contact"> <div> Other project</div></Link>
-                        <Link to="/projects"> <div>Contact</div></Link>
+                    <Link to="/projects"> <div> Other project</div></Link>
+                        <Link to="/contact"> <div>Contact</div></Link>
                 </nav>
                 </HashRouter>
             </>

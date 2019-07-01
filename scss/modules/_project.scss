@@ -124,6 +124,8 @@ display: flex;
       border:8px solid whitesmoke;
       box-shadow: -8px 3px 169px 315px rgba(82,82,77,1);
       border-radius: 10%;
+     padding-top: 5%;
+      padding-bottom: 5%;
       .closeApp{
         top:0;
         position: absolute;
@@ -142,6 +144,14 @@ display: flex;
           transition: 1s;
           color:whitesmoke;
           }
+      }
+      .AppContainer{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: scroll;
       }
     }
   }
