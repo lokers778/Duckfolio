@@ -7,7 +7,7 @@ class SingleProject extends Component{
     render() {
         return(
             <div>
-                <img src={this.props.projectAtr.imgUrl} alt={this.props.projectAtr.altText}/>
+                <a target="_blank" href={this.props.projectAtr.link}><img src={this.props.projectAtr.imgUrl} alt={this.props.projectAtr.altText}/></a>
                 <div><h3>{this.props.projectAtr.title}</h3><p>{this.props.projectAtr.text}</p> <span>"{this.props.projectAtr.quote}"</span></div>
             </div>
         )
