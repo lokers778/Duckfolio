@@ -1,11 +1,13 @@
-import  React,{Component} from "react";
+import React, {Component} from "react";
 import toDoData from "../data/ToDoList_data";
 
-class ToDoItem extends Component{
+class ToDoItem extends Component {
     render() {
-        return(
+        return (
             <div className="todo-item">
-                <input type="checkbox" checked={this.props.task.completed}/>
+                <input type="checkbox" checked={this.props.task.completed} onChange={() => {
+                    this.props.handleChange(this.props.task.id)
+                }}/>
                 <p>{this.props.task.text}</p>
                 <button>remove</button>
             </div>
@@ -14,18 +16,41 @@ class ToDoItem extends Component{
 }
 
 
-class ToDoListComponent extends Component{
+class ToDoListComponent extends Component {
+    state = {
+        input :"",
+        doneTas: toDoData
+    }
+
+    handleChange=(event)=>{
+        this.setState({
+        [event.target.name]:event.target.value
+        })
+    }
+        handleSubmit = (event)=>{
+        event.preventDefault()
+        }
+
+
+
 
     render() {
-        const toDoArray=toDoData.map((task)=><ToDoItem key={task.id} task={task}/>)
-        return(
+        const toDoArray = this.state.doneTas.map((task) => <ToDoItem key={task.id} task={task}
+                                                                     handleChange={this.handleChange}/>)
+        return (
             <div>
-            {toDoArray}
+                <form onSubmit={this.handleSubmit}>
+                <h2>To Do List</h2>
+                {toDoArray}
+                <input name="text" placeholder="add task" value={this.state.text} onChange={this.handleChange}/>
+                <submit></submit>
+                </form>
             </div>
         )
 
 
     }
 }
+
 
 export default ToDoListComponent;

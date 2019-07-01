@@ -2,7 +2,7 @@ import React, {Component} from "react"
 
 class AboutMeComponent extends Component {
     state = {
-        display1: "none",
+        display1: "block",
         display2: "none",
         display3: "none",
         display4: "none",

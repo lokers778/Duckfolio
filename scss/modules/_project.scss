@@ -114,7 +114,7 @@ display: flex;
 
     }
     section.AppDisplay{
-      width: 80%;
+      width: 70%;
       height: 80%;
       position: fixed;
       background-color: darkgrey;
@@ -122,9 +122,10 @@ display: flex;
       top: 10%;
       margin:0 auto;
       border:8px solid whitesmoke;
-      box-shadow: -8px 3px 169px 200px rgba(82,82,77,1);
+      box-shadow: -8px 3px 169px 315px rgba(82,82,77,1);
       border-radius: 10%;
-      button{
+      .closeApp{
+        top:0;
         position: absolute;
         left: 90%;
         width: 10%;
@@ -134,9 +135,12 @@ display: flex;
         border-top-right-radius: 90%;
         font-size: 20px;
         color:$secondary-color;
+        transition: 1s;
+        outline: none;
         &:hover{
           background-color: $secondary-color;
           transition: 1s;
+          color:whitesmoke;
           }
       }
     }

@@ -2,6 +2,7 @@ import React, {Component} from "react"
 
 
 class CalcRow extends Component{
+
     render() {
         return(
             <div className="calcRow">
@@ -14,7 +15,20 @@ class CalcRow extends Component{
     }
 }
 
+
 class CalcKeys extends Component{
+    state = {
+        display :" "
+    };
+
+    addToInput = (key) => {
+        this.setState({ display: this.state.display + key });
+    };
+
+    handleEqual = () => {
+        this.setState({ display: math.eval(this.state.display) });
+    };
+
     render() {
         return (
             <div className="calcKeys">

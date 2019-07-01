@@ -1,11 +1,14 @@
 import React, {Component} from "react"
+import CalculatorApp from "./Calculator";
+import ToDoListComponent from "./ToDoList";
 
 class SingleApp extends Component{
     ClickshowApp=()=>{
-       this.props.show()
+       let content = this.props.content
+       this.props.show(content)
     }
-
     render(){
+
         return(
 <div onClick={this.ClickshowApp}><span className="icon"><i className={this.props.name}></i></span><span>{this.props.text}</span></div>
         )
@@ -14,20 +17,21 @@ class SingleApp extends Component{
 
 class DuckApp extends Component {
     state={
-        display:"none"
+        display:"none",
+        content:""
     };
 
-    showApp=()=>{
+    showApp=(e)=>{
         this.setState({
-            display:"block"
+            display:"block",
+            content:e
         })
-        console.log("hello")
     }
     closeApp=()=>{
         this.setState({
-            display:"none"
+            display:"none",
+            content:""
         })
-        console.log("hello")
     }
     render() {
         return (
@@ -35,18 +39,19 @@ class DuckApp extends Component {
                 <div className="container">
                     <h2>DuckApp</h2>
                     <div>
-                        <SingleApp name="fas fa-calculator" text='Calculator' show={this.showApp}/>
-                        <SingleApp name="fas fa-list" text='ToDoList' show={this.showApp}/>
-                        <SingleApp name="fas fa-image" text='project' show={this.showApp}/>
-                        <SingleApp name="fas fa-image" text='project' show={this.showApp}/>
-                        <SingleApp name="fab fa-react" text='React App' show={this.showApp}/>
+                        <SingleApp name="fas fa-calculator" text='Calculator' show={this.showApp.bind(this)} content={<CalculatorApp/>}/>
+                        <SingleApp name="fas fa-list" text='ToDoList' show={this.showApp} content={<ToDoListComponent/>}/>
+                        <SingleApp name="fas fa-image" text='project' show={this.showApp} content="Project"/>
+                        <SingleApp name="fas fa-image" text='project' show={this.showApp} content="Project"/>
+                        <SingleApp name="fab fa-react" text='React App' show={this.showApp} content="React"/>
 
                     </div>
-                    <section class="AppDisplay" style={{display:this.state.display}}><button onClick={this.closeApp}><i class="fas fa-times"></i></button></section>
+                    <section className="AppDisplay"  style={{display:this.state.display}}><div>{this.state.content}</div><button className="closeApp" onClick={this.closeApp}><i className="fas fa-times"></i></button></section>
                 </div>
             </section>
         )
     }
 }
+
 
 export default DuckApp;
