@@ -6,7 +6,6 @@ import DuckApp from "./components/duckApp.js"
 import AboutMe from "./components/aboutMe.js"
 import Footer from "./components/Footer.js"
 import CalculatorApp from "./components/Calculator";
-import ToDoListComponent from "./components/ToDoList";
 import OtherProjects from "./components/OtherProjects";
 import Contact from "./components/Form";
 import {
@@ -47,7 +46,6 @@ function App() {
             </HashRouter>
             <Footer/>
             <CalculatorApp/>
-            <ToDoListComponent/>
         </>
     )
 
