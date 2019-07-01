@@ -1,4 +1,12 @@
-import React, {Component} from "react"
+import React, {Component} from "react";
+import ReactDOM from 'react-dom';
+import {
+    HashRouter,
+    Route,
+    Link,
+    Switch,
+    NavLink,
+}from 'react-router-dom';
 
 class Duck extends Component {
     render() {
@@ -43,11 +51,13 @@ class Nav extends Component {
     render() {
         return (
             <>
+                <HashRouter>
                 <nav>
-                    <div><a href="">Main</a></div>
-                    <div><a href="">Other project</a></div>
-                    <div><a href="">Contact</a></div>
+                    <Link to="/"><div>Main</div></Link>
+                    <Link to="/contact"> <div> Other project</div></Link>
+                        <Link to="/projects"> <div>Contact</div></Link>
                 </nav>
+                </HashRouter>
             </>
         )
     }
