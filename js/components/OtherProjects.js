@@ -8,7 +8,7 @@ class SingleProject extends Component{
         return(
             <div>
                 <img src={this.props.projectAtr.imgUrl} alt={this.props.projectAtr.altText}/>
-                <div><h3>{this.props.projectAtr.title}</h3><p>{this.props.projectAtr.text}</p></div>
+                <div><h3>{this.props.projectAtr.title}</h3><p>{this.props.projectAtr.text}</p> <span>"{this.props.projectAtr.quote}"</span></div>
             </div>
         )
     }
@@ -19,7 +19,7 @@ class OtherProjects extends Component {
     render() {
         return (
             <>
-                <section>
+                <section className="otherProjects">
                     <div className="container">
                         {projectArray}
                     </div>
