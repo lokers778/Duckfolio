@@ -44,8 +44,11 @@ class NewToDo extends Component {
     render() {
 
         return (
-            <div style={{textDecoration: this.props.complete ? "line-through" : ""}}
-                 onClick={this.props.toogleComplete}>{this.props.text}{console.log(this)}</div>
+            <>
+                <div style={{textDecoration: this.props.complete ? "line-through" : ""}}
+                     onClick={this.props.toogleComplete}>{this.props.text}{console.log(this)}</div>
+                <button onClick={this.props.deleteTask}>x</button>
+            </>
         )
 
     }
@@ -57,11 +60,14 @@ class ToDoListComponent extends Component {
         todoToShow: "all",
     };
 
+
+
     newToDo = (task) => {
         this.setState({
             toDoList: [task, ...this.state.toDoList]
         })
     };
+
     toggleComplete = (id) => {
         this.setState({
             toDoList: this.state.toDoList.map(task => {
@@ -79,12 +85,18 @@ class ToDoListComponent extends Component {
             })
         })
     }
+
     updateTodoToShow = state => {
         this.setState({
             todoToShow: state
         });
     };
 
+    handleDeleteTask = id => {
+        this.setState({
+            toDoList: this.state.toDoList.filter(task => task.id !== id)
+        });
+    };
     render() {
         let toDoList = [];
 
@@ -101,7 +113,8 @@ class ToDoListComponent extends Component {
             <div>
                 <ToDoFormComponent onSubmit={this.newToDo}/>
                 {toDoList.map((task) => (
-                    <NewToDo key={task.id} toogleComplete={() => this.toggleComplete(task.id)} id={task.id}
+                    <NewToDo key={task.id} toogleComplete={() => this.toggleComplete(task.id)}
+                             deleteTask={() => this.handleDeleteTask(task.id)} id={task.id}
                              text={task.text} complete={task.complete}/>))}
                 <div>Task left:{this.state.toDoList.filter((task) => !task.complete).length}</div>
                 <div>
