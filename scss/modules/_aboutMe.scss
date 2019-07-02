@@ -40,17 +40,36 @@
     }
   }
   .description{
+    color:white;
     flex:3.5;
     display:none;
     background-color: darkgrey;
-    >div:nth-of-type(2){
+    >div:nth-of-type(2) {
       background-color: inherit;
       height: 90%;
       text-align: center;
-      font-size: 22px;
-      padding: 3% 6%;
-    }
+      padding: 15% 6%;
+      font-size: 25px;
 
+      li,p {
+
+        margin: 2px;
+        border-radius: 5%;
+        background-color: #52524d;
+        list-style: none;
+        transition: 1s;
+        &:hover{
+          background-color: darkgoldenrod;
+          transition: 1s;
+        }
+        &:nth-of-type(2n) {
+          background-color: gray;
+          &:hover{
+            background-color: orange;
+          }
+        }
+      }
+    }
     .horizontalTabsButton{
       background-color: inherit;
       height: 10%;
@@ -81,11 +100,24 @@
       }
     }
   }
-  #DuckStory>div{
+  #DuckStory>div {
     height: 100%;
     background-color: inherit;
     text-align: center;
-    font-size: 22px;
-    padding: 3% 6%;
+    font-size: 25px;
+    padding: 25% 6%;
+
+    p {
+      margin: 2px;
+      border-radius: 5%;
+      background-color: #52524d;
+      list-style: none;
+      transition: 1s;
+
+      &:hover {
+        background-color: darkgoldenrod;
+        transition: 1s;
+      }
+    }
   }
 }
