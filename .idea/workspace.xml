@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08792b6-c2ae-4a3e-898b-5dca3b683a9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/aboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/aboutMe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/components/duckGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/duckGallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/modules/_aboutMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_aboutMe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/modules/_otherprojects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_otherprojects.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/components/aboutMe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
+            <state relative-caret-position="492">
               <caret line="78" column="87" lean-forward="true" selection-start-line="78" selection-start-column="87" selection-end-line="78" selection-end-column="87" />
               <folding>
                 <element signature="n#MySkillsComponent#0" />
@@ -43,7 +40,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/components/duckGallery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="n#DuckGallery#0" />
+                <element signature="n#!!block;n#componentDidMount#0;n#DuckGallery#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
@@ -143,10 +166,11 @@
         <option value="$PROJECT_DIR$/js/components/Form.js" />
         <option value="$PROJECT_DIR$/scss/modules/_form.scss" />
         <option value="$PROJECT_DIR$/scss/modules/_otherprojects.scss" />
-        <option value="$PROJECT_DIR$/js/components/duckGallery.js" />
         <option value="$PROJECT_DIR$/scss/modules/_aboutMe.scss" />
         <option value="$PROJECT_DIR$/js/components/aboutMe.js" />
         <option value="$PROJECT_DIR$/js/App.js" />
+        <option value="$PROJECT_DIR$/js/components/duckGallery.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -167,22 +191,6 @@
             <path>
               <item name="Duckfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Duckfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Duckfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Duckfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Duckfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Duckfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Duckfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Duckfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,18 +249,18 @@
       <workItem from="1561588101160" duration="1256000" />
       <workItem from="1561614820236" duration="22158000" />
       <workItem from="1561652101943" duration="36779000" />
-      <workItem from="1561966662180" duration="48999000" />
+      <workItem from="1561966662180" duration="51014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133222000" />
+    <option name="totallyTimeSpent" value="135237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49941927" visible="true" weight="0.67105955" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49941927" visible="true" weight="0.16341592" />
       <window_info id="Structure" order="1" sideWeight="0.5005807" side_tool="true" weight="0.16394307" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -264,7 +272,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49815497" visible="true" weight="0.35191637" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49815497" visible="true" weight="0.35191637" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501845" side_tool="true" visible="true" weight="0.35191637" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -515,18 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/components/duckGallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="n#DuckGallery#0" />
-            <element signature="n#!!block;n#componentDidMount#0;n#DuckGallery#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/modules/_form.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -576,9 +572,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/components/aboutMe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
+        <state relative-caret-position="492">
           <caret line="78" column="87" lean-forward="true" selection-start-line="78" selection-start-column="87" selection-end-line="78" selection-end-column="87" />
           <folding>
             <element signature="n#MySkillsComponent#0" />
@@ -597,14 +604,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/App.js">
+    <entry file="file://$PROJECT_DIR$/js/components/duckGallery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="n#Main#0" />
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="n#DuckGallery#0" />
+            <element signature="n#!!block;n#componentDidMount#0;n#DuckGallery#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

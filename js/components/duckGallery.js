@@ -14,7 +14,7 @@ class Hours extends Component {
         } else if (time >= 12 && time < 17) {
             currentTime = "Good afternoon"
         } else {
-            currentTime = "evening"
+            currentTime = "Good evening"
         }
         return (<h2>{currentTime}</h2>)
     }
