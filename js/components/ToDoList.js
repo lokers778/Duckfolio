@@ -43,11 +43,11 @@ class NewToDo extends Component {
     render() {
 
         return (
-            <>
-                <div style={{textDecoration: this.props.complete ? "line-through" : ""}}
+            <div className="toDo">
+                <div style={{textDecoration: this.props.complete ? "line-through" : "", backgroundColor: this.props.complete ? "black" : ""}}
                      onClick={this.props.toogleComplete}>{this.props.text}{console.log(this)}</div>
                 <button onClick={this.props.deleteTask}>x</button>
-            </>
+            </div>
         )
 
     }
@@ -109,13 +109,13 @@ class ToDoListComponent extends Component {
         }
 
         return (
-            <div>
+            <div className="toDoList">
                 <ToDoFormComponent onSubmit={this.newToDo}/>
                 {toDoList.map((task) => (
                     <NewToDo key={task.id} toogleComplete={() => this.toggleComplete(task.id)}
                              deleteTask={() => this.handleDeleteTask(task.id)} id={task.id}
                              text={task.text} complete={task.complete}/>))}
-                <div>Task left:{this.state.toDoList.filter((task) => !task.complete).length}</div>
+                <div className="leftDiv">Task left:{this.state.toDoList.filter((task) => !task.complete).length}</div>
                 <div>
                     <button onClick={() => this.updateTodoToShow("all")}>All</button>
                     <button onClick={() => this.updateTodoToShow("active")}>Active</button>

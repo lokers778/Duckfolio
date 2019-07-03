@@ -1,0 +1,86 @@
+.toDoList {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+input{
+  width:50%;
+  height: 40px;
+  outline:orange 1px solid;
+  background-color: #52524d;
+  color: white;
+}
+  button {
+    background-color: $secondary-color;
+    border: none;
+    outline: 0;
+    height: 100%;
+    text-transform: uppercase;
+    color: white;
+    transition: 1.5s;
+    &:hover{
+      background-color: darkgoldenrod;
+      transition: 1.5s;
+      cursor: pointer;
+    }
+  }
+
+  .toDo {
+    display: flex;
+    width: 80%;
+    height: 10%;
+    margin: 0 auto;
+    background-color: #52524d;
+    border:1px solid grey;
+    justify-content: space-between;
+    font-size: 26px;
+    color: white;
+&:first-of-type{
+  margin-top:25px;
+}
+    > div {
+      width: 90%;
+      text-align: justify;
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+    }
+
+    &:nth-of-type(2n) {
+      background-color: gray;
+      border:1px solid $main-color
+    }
+
+    button {
+      width: 10%;
+
+      font-size: 30px;
+    }
+  }
+
+  div:last-child {
+    width: 80%;
+    margin: 5px auto 0px auto;
+    height: 10%;
+    font-size: 16px;
+
+    button {
+      width: 10%;
+      overflow: hidden;
+      box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.75);
+      &:hover{
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+      }
+    }
+  }
+  .leftDiv{
+    width: 80%;
+    margin: 10px auto 0px auto;
+    height: 10%;
+    color:white;
+    font-size:26px ;
+    height: 30px;
+  }
+}
