@@ -8,6 +8,7 @@ import Footer from "./components/Footer.js"
 import CalculatorApp from "./components/Calculator";
 import OtherProjects from "./components/OtherProjects";
 import Contact from "./components/Form";
+import FetchComponent from "./components/Fetch"
 import {
     HashRouter,
     Route,
@@ -45,6 +46,7 @@ function App() {
                 </Switch>
             </HashRouter>
             <Footer/>
+            <FetchComponent/>
         </>
     )
 
