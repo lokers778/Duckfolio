@@ -46,7 +46,6 @@ function App() {
                 </Switch>
             </HashRouter>
             <Footer/>
-            <FetchComponent/>
         </>
     )
 

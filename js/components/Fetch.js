@@ -40,14 +40,15 @@ const{name,value}=event.target;
         this.setState({[name]:value})
     }
     render(){
-        return<div>
+        return<div class="generator">
             <form className="formMemGenerator" onSubmit={this.handleSubmit}>
                 <input name="top" type="text" placeholder="Upper Text" value={this.state.top} onChange={this.handleChange}/>
-                <input name="bottom" placeholder="Bottom Text" value={this.state.bottom} onChange={this.handleChange}/>
                 <button>Generate</button>
+                <input name="bottom" placeholder="Bottom Text" value={this.state.bottom} onChange={this.handleChange}/>
+
             </form>
             <div className="meme">
-                <img src={this.state.img} alt=""/>
+                <img src={this.state.img} alt="generate Mem"/>
                 <h2 className="top">{this.state.top}</h2>
                 <h2 className="bottom">{this.state.bottom}</h2>
             </div>

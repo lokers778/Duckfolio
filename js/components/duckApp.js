@@ -42,7 +42,7 @@ class DuckApp extends Component {
                     <div>
                         <SingleApp name="fas fa-calculator" text='Calculator' show={this.showApp.bind(this)} content={<CalculatorApp/>}/>
                         <SingleApp name="fas fa-list" text='ToDoList' show={this.showApp} content={<ToDoListComponent/>}/>
-                        <SingleApp name="fas fa-image" text='Meme giGenerator' show={this.showApp} content={<FetchComponent/>}/>
+                        <SingleApp name="fas fa-image" text='Meme Generator' show={this.showApp} content={<FetchComponent/>}/>
                         <SingleApp name="fas fa-image" text='project' show={this.showApp} content="Project"/>
                         <SingleApp name="fab fa-react" text='React App' show={this.showApp} content="React"/>
 
