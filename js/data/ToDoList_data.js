@@ -11,7 +11,7 @@ const projectData = [
         id: "2",
         imgUrl: "img/Projects/HungDuck.png",
         title: "HungDuck",
-        text: "Simple guess the word game - the best way to learn is by doing what you love. Its using ES6 vanilla JS",
+        text: "Simple guess the word game - the best way to learn is by doing what you love. Its using ES6 vanilla JS,fetching random from API ",
         quote:"maybe it's not a mario game and princess may be in another castle..but i can work in your company",
         link:"https://lokers778.github.io/hung_duck/",
     },

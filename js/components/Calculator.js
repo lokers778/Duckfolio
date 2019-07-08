@@ -1,55 +1,113 @@
 import React, {Component} from "react"
 
 
-class CalcRow extends Component{
+class CalcDisplay extends Component {
+    render() {
+        let {result} = this.props
+        return (
+            <div className=".calcDisplay">
+                <div>{result}</div>
+            </div>
+        )
+    }
+}
+
+class CalcRow extends Component {
 
     render() {
-        return(
+        return (
             <div className="calcRow">
-                <button>{this.props.firstButton}</button>
-                <button>{this.props.secondButton}</button>
-                <button>{this.props.thirdButton}</button>
-                <button>{this.props.fourthButton}</button>
-                </div>
+                <button name={this.props.firstButton}
+                        onClick={e => this.props.onClick(e.target.name)}>{this.props.firstButton}</button>
+                <button name={this.props.secondButton}
+                        onClick={e => this.props.onClick(e.target.name)}>{this.props.secondButton}</button>
+                <button name={this.props.firstButton}
+                        onClick={e => this.props.onClick(e.target.name)}>{this.props.thirdButton}</button>
+                <button name={this.props.firstButton}
+                        onClick={e => this.props.onClick(e.target.name)}>{this.props.fourthButton}</button>
+            </div>
         )
     }
 }
 
 
-class CalcKeys extends Component{
-    state = {
-        display :" "
-    };
+class CalcKeys extends Component {
 
-    addToInput = (key) => {
-        this.setState({ display: this.state.display + key });
-    };
 
-    handleEqual = () => {
-        this.setState({ display: math.eval(this.state.display) });
-    };
 
     render() {
         return (
             <div className="calcKeys">
-                <CalcRow firstButton="7" secondButton="8" thirdButton="9" fourthButton="/"/>
-                <CalcRow firstButton="4" secondButton="5" thirdButton="6" fourthButton="x"/>
-                <CalcRow firstButton="1" secondButton="2" thirdButton="3" fourthButton="-"/>
-                <CalcRow firstButton="0" secondButton="." thirdButton="=" fourthButton="+"/>
+                <CalcRow firstButton="CE" secondButton="(" thirdButton=")" fourthButton="C"  onClick={this.onClick}/>
+                <CalcRow firstButton="7" secondButton="8" thirdButton="9" fourthButton="/"  onClick={this.onClick}/>
+                <CalcRow firstButton="4" secondButton="5" thirdButton="6" fourthButton="x"  onClick={this.onClick}/>
+                <CalcRow firstButton="1" secondButton="2" thirdButton="3" fourthButton="-"  onClick={this.onClick}/>
+                <CalcRow firstButton="0" secondButton="." thirdButton="=" fourthButton="+"  onClick={this.onClick}/>
 
             </div>
         );
     }
 }
 
-class CalculatorApp extends Component{
+
+
+class CalculatorApp extends Component {
+    state = {
+        result: ""
+
+    };
+    onClick = button => {
+
+        if(button === "="){
+            this.calculate()
+        }
+
+        else if(button === "C"){
+            this.reset()
+        }
+        else if(button === "CE"){
+            this.backspace()
+        }
+
+        else {
+            this.setState({
+                result: this.state.result + button
+            })
+        }
+    };
+    calculate = () => {
+        try {
+            this.setState({
+                // eslint-disable-next-line
+                result: (eval(this.state.result) || "" ) + ""
+            })
+        } catch (e) {
+            this.setState({
+                result: "error"
+            })
+
+        }
+    };
+
+    reset = () => {
+        this.setState({
+            result: ""
+        })
+    };
+
+    backspace = () => {
+        this.setState({
+            result: this.state.result.slice(0, -1)
+        })
+    };
     render() {
-        return(
+        return (
             <section className="calcApp">
-                <div className="calcDisplay"><div></div><button>CE</button></div>
-            <CalcKeys/>
+                <CalcDisplay result={this.state.result}/>
+                <CalcKeys onClick={this.onClick}/>
             </section>
         )
     }
 }
+
 export default CalculatorApp

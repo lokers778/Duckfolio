@@ -5,17 +5,13 @@ import React, {Component} from "react"
 
 
 class FetchComponent extends Component{
-    constructor() {
-        super()
-        this.state = {
+        state = {
             top: "",
             bottom: "",
             memes: [],
             img:"img/Duck.jpeg"
         }
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this)
-    }
+
 componentDidMount() {
 
 
@@ -28,14 +24,14 @@ componentDidMount() {
 
 }
 
-handleSubmit(event){
+handleSubmit=(event)=>{
         event.preventDefault()
     const randomNum=Math.floor(Math.random()*this.state.memes.length);
     const randomMemeImg = this.state.memes[randomNum].url;
     this.setState({ img: randomMemeImg })
 }
 
-    handleChange(event){
+    handleChange=(event)=>{
 const{name,value}=event.target;
         this.setState({[name]:value})
     }
