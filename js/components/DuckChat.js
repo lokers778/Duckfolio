@@ -1,17 +1,16 @@
 import React, {Component} from "react"
-import Chatkit from "../../node_modules/@pusher/chatkit"
-
+import { ChatManager, TokenProvider } from "../../node_modules/@pusher/chatkit-client/react-native"
 const DUMMY_DATA = [
     {
-        senderId: 'perborgen',
+        senderId: 'Junior',
         text: 'Hey, how is it going?'
     },
     {
-        senderId: 'janedoe',
+        senderId: 'Junior',
         text: 'Great! How about you?'
     },
     {
-        senderId: 'perborgen',
+        senderId: 'Senior',
         text: 'Good to hear! I am great as well'
     }
 ]
@@ -39,8 +38,38 @@ class MessageList extends React.Component {
 
 
 class DuckChat extends Component {
+    componentDidMount() {
+        const tokenProvider = new TokenProvider({
+            url: "https://us1.pusherplatform.io/services/chatkit_token_provider/v1/0c8cbde6-1264-4d14-8db0-731cdf00bee4/token"
+        });
+
+
+        const chatManager = new ChatManager({
+            instanceLocator: "v1:us1:0c8cbde6-1264-4d14-8db0-731cdf00bee4",
+            userId: "Junior",
+            tokenProvider: tokenProvider
+        });
+        chatManager.connect()
+            .then(currentUser => {
+                currentUser.subscribeToRoom({
+                    roomId: "21557954",
+                    hooks: {
+                        onMessage: message => {
+                            console.log("received message", message.text)
+                        }
+                    }
+                })
+            })
+            .catch(err => {
+                console.log('Error on connection', err)
+            })
+
+    }
+
+
     render() {
         return (
+
             <>
                 <MessageList/>
                 <h1>hello</h1>
