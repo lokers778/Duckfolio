@@ -20,6 +20,7 @@ input{
     text-transform: uppercase;
     color: white;
     transition: 1.5s;
+    overflow: hidden;
     &:hover{
       background-color: darkgoldenrod;
       transition: 1.5s;
@@ -46,6 +47,7 @@ input{
       display: flex;
       align-items: center;
       padding-left: 20px;
+      overflow: hidden;
     }
 
     &:nth-of-type(2n) {

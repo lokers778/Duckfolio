@@ -5,7 +5,6 @@ import DuckGallery from "./components/duckGallery.js"
 import DuckApp from "./components/duckApp.js"
 import AboutMe from "./components/aboutMe.js"
 import Footer from "./components/Footer.js"
-import DuckChat from "./components/DuckChat";
 import OtherProjects from "./components/OtherProjects";
 import Contact from "./components/Form";
 import {

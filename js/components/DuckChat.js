@@ -116,7 +116,7 @@ class MessageList extends React.Component {
         return (
 
 
-            <div className="messageList">
+            <div className="message-list">
                 {this.props.messages.map((message, index) => {
                     return (
                         <Message key={index} userId={message.senderId} text={message.text}/>
@@ -212,12 +212,16 @@ this.setState({
     render() {
         return (
 
-            <>
+            <div className="DuckChat">
+                <div className="lists">
                 <RoomList roomId={this.state.roomId} subscribeToRoom={this.subscribeToRoom} rooms={[...this.state.joinableRooms,...this.state.joinedRooms]} />
                 <MessageList messages={this.state.messages} roomId={this.state.roomId}/>
+                </div>
+               <div className="inputs">
                 <SendMessage sendMessage={this.sendMessage}/>
                 <NewRoomForm createRoom={this.createRoom}/>
-            </>)
+               </div>
+            </div>)
     }
 
 

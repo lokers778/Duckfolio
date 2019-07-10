@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08792b6-c2ae-4a3e-898b-5dca3b683a9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/modules/_DuckChat.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/components/DuckChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/DuckChat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/Fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/Fetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/modules/_DuckChat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_DuckChat.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/modules/_toDoList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_toDoList.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,63 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/modules/_DuckChat.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/components/DuckChat.js">
+        <entry file="file://$PROJECT_DIR$/scss/modules/_toDoList.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="150" column="29" lean-forward="true" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="n#Main#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/modules/_form.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/components/aboutMe.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="78" column="87" lean-forward="true" selection-start-line="78" selection-start-column="87" selection-end-line="78" selection-end-column="87" />
-              <folding>
-                <element signature="n#MySkillsComponent#0" />
-                <element signature="n#!!block;n#render#0;n#MySkillsComponent#0" />
-                <element signature="n#WhyDuckComponent#0" />
-                <element signature="n#!!block;n#render#0;n#WhyDuckComponent#0" />
-                <element signature="n#ButtonTabs#0" />
-                <element signature="n#!!block;n#render#0;n#ButtonTabs#0" />
-                <element signature="n#AboutMe#0" />
-              </folding>
+            <state relative-caret-position="735">
+              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -91,11 +49,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>clas</find>
-      <find>conso</find>
-      <find>disp</find>
-      <find>my</find>
-      <find>wid</find>
       <find>b</find>
       <find>hande</find>
       <find>sect</find>
@@ -106,7 +59,6 @@
       <find>complete</find>
       <find>toggle</find>
       <find>con</find>
-      <find>button</find>
       <find>delet</find>
       <find>outl</find>
       <find>fon</find>
@@ -121,6 +73,12 @@
       <find>bac</find>
       <find>class</find>
       <find>hre</find>
+      <find>userId</find>
+      <find>message-list</find>
+      <find>input</find>
+      <find>butto</find>
+      <find>button</find>
+      <find>list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,24 +110,26 @@
         <option value="$PROJECT_DIR$/js/components/duckGallery.js" />
         <option value="$PROJECT_DIR$/scss/modules/_project.scss" />
         <option value="$PROJECT_DIR$/js/components/ToDoList.js" />
-        <option value="$PROJECT_DIR$/scss/modules/_toDoList.scss" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/scss/modules/_memeGenerator.scss" />
         <option value="$PROJECT_DIR$/js/components/Calculator.js" />
         <option value="$PROJECT_DIR$/js/data/ToDoList_data.js" />
         <option value="$PROJECT_DIR$/js/components/duckApp.js" />
-        <option value="$PROJECT_DIR$/js/App.js" />
         <option value="$PROJECT_DIR$/scss/modules/_form.scss" />
-        <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/js/components/Fetch.js" />
+        <option value="$PROJECT_DIR$/scss/main.scss" />
+        <option value="$PROJECT_DIR$/js/App.js" />
         <option value="$PROJECT_DIR$/js/components/DuckChat.js" />
+        <option value="$PROJECT_DIR$/scss/modules/_memeGenerator.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_DuckChat.scss" />
+        <option value="$PROJECT_DIR$/scss/modules/_toDoList.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
-    <option name="width" value="960" />
-    <option name="height" value="990" />
+    <option name="x" value="111" />
+    <option name="y" value="27" />
+    <option name="width" value="1717" />
+    <option name="height" value="883" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -278,12 +238,12 @@
       <workItem from="1562138837095" duration="2000" />
       <workItem from="1562144865104" duration="599000" />
       <workItem from="1562304215071" duration="11650000" />
-      <workItem from="1562617364217" duration="20658000" />
+      <workItem from="1562617364217" duration="27425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173952000" />
+    <option name="totallyTimeSpent" value="180719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
@@ -308,7 +268,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49941927" visible="true" weight="0.36004218" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49941927" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" sideWeight="0.5005807" side_tool="true" weight="0.16394307" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -320,8 +280,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4960464" visible="true" weight="0.35191637" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50395364" side_tool="true" visible="true" weight="0.35191637" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49551925" visible="true" weight="0.35191637" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5044808" side_tool="true" weight="0.35191637" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -448,13 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_duckGallery.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -564,20 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_toDoList.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_memeGenerator.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/data/ToDoList_data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -626,56 +565,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/components/duckApp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="46" column="78" selection-start-line="46" selection-start-column="78" selection-end-line="46" selection-end-column="78" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/components/aboutMe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="78" column="87" lean-forward="true" selection-start-line="78" selection-start-column="87" selection-end-line="78" selection-end-column="87" />
-          <folding>
-            <element signature="n#MySkillsComponent#0" />
-            <element signature="n#!!block;n#render#0;n#MySkillsComponent#0" />
-            <element signature="n#WhyDuckComponent#0" />
-            <element signature="n#!!block;n#render#0;n#WhyDuckComponent#0" />
-            <element signature="n#ButtonTabs#0" />
-            <element signature="n#!!block;n#render#0;n#ButtonTabs#0" />
-            <element signature="n#AboutMe#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_DuckChat.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="n#Main#0" />
           </folding>
         </state>
       </provider>
@@ -699,13 +594,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/components/aboutMe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="78" column="87" lean-forward="true" selection-start-line="78" selection-start-column="87" selection-end-line="78" selection-end-column="87" />
+          <folding>
+            <element signature="n#MySkillsComponent#0" />
+            <element signature="n#!!block;n#render#0;n#MySkillsComponent#0" />
+            <element signature="n#WhyDuckComponent#0" />
+            <element signature="n#!!block;n#render#0;n#WhyDuckComponent#0" />
+            <element signature="n#ButtonTabs#0" />
+            <element signature="n#!!block;n#render#0;n#ButtonTabs#0" />
+            <element signature="n#AboutMe#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <element signature="n#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/components/DuckChat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="150" column="29" lean-forward="true" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+        <state relative-caret-position="259">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="26" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_duckGallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_memeGenerator.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_DuckChat.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="55" column="16" lean-forward="true" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_toDoList.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
         </state>
       </provider>
     </entry>
