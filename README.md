@@ -19,10 +19,10 @@ Duckfolio is my simple React portfolio project, helping me understand basic of R
   2.3 Contact - you can find link to my github linkedin and form to contact me
   
 ## Road map
- 1. Add another app and finish calc app
- 2.Rebuild app with DRY  
- 3.Add style for 404
- 4.Work with another projects and link them  
+ 1. Add another app and finish calc app  
+ 2.Rebuild app with DRY    
+ 3.Add style for 404  
+ 4.Work with another projects and link them    
    
 ## App demo
 
