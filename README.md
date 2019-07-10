@@ -1,6 +1,6 @@
 # Duckfolio
 
-Duckfolio is my simple React portfolio project, helping me understand basic of React like state or props. This will contain 5 app (currently only 1) to show my understanding. In one section i will link my another projects and in another i will give little description about me my knowledge state ot future plans.  
+Duckfolio is my simple React portfolio project, helping me understand basic of React like state or props. This will contain 5 app (currently only 3 working) to show my understanding. In one section i will link my another projects and in another i will give little description about me my knowledge state ot future plans.  
   
   ## Project Section
   1.Header and footer - they are static elements, header contains navlink with React Router that will generate main section
