@@ -36,7 +36,7 @@ const{name,value}=event.target;
         this.setState({[name]:value})
     }
     render(){
-        return<div class="generator">
+        return<div className="generator">
             <form className="formMemGenerator" onSubmit={this.handleSubmit}>
                 <input name="top" type="text" placeholder="Upper Text" value={this.state.top} onChange={this.handleChange}/>
                 <button>Generate</button>
