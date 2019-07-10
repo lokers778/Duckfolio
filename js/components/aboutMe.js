@@ -271,7 +271,7 @@ class WhyDuckComponent extends Component {
         return (
             <div id="DuckStory" className="description" style={{display: this.props.block}}>
                 <div>
-                    <p>From the first time i heard about <i>duck overflow</i> i fall in love with this. I needed more practice using React on basic level so when i thought about creating and learning new technology I thought I will use that single thing what made me thinking about programing in this exciting and funny category. So why ducks ? because  i love them !!! This project still need some fixes, some thing are hardcoded i will repair them soon.And this project is far from finish ony have one application from 5</p>
+                    <p>From the first time i heard about <i>duck overflow</i> i fall in love with this. I needed more practice using React on basic level so when i thought about creating and learning new technology I thought I will use that single thing what made me thinking about programing in this exciting and funny category. So why ducks ? because  i love them !!! This project still need some fixes, some thing are hardcoded i will repair them soon.And this project is far from finish only have 3 application working of 5</p>
                 </div>
             </div>
         )
