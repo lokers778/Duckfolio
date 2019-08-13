@@ -37,7 +37,7 @@ const projectData = [
         title: "GridGallery",
         text: "RWD Grid gallery - getting images from Api, filter functions, show full images, loading images view",
         quote:"Looks amazing.. also working",
-        link:" https://lokers778.github.io/Grid_gallery/",
+        link:"https://lokers778.github.io/Grid_gallery/",
     },
     {
         id: "6",
@@ -45,7 +45,7 @@ const projectData = [
         title: "AboutMe",
         text: "Basic Single page portfolio - no more no less",
         quote:"Another portfolio without love for ducks",
-        link:" https://lokers778.github.io/About-Me/",
+        link:"https://lokers778.github.io/About-me/",
     },
     {
         id: "7",
