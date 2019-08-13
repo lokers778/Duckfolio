@@ -33,6 +33,22 @@ const projectData = [
     },
     {
         id: "5",
+        imgUrl: "img/Projects/GridGallery.png",
+        title: "GridGallery",
+        text: "RWD Grid gallery - getting images from Api, filter functions, show full images, loading images view",
+        quote:"Looks amazing.. also working",
+        link:" https://lokers778.github.io/Grid_gallery/",
+    },
+    {
+        id: "6",
+        imgUrl: "img/Projects/AboutMe.png",
+        title: "AboutMe",
+        text: "Basic Single page portfolio - no more no less",
+        quote:"Another portfolio without love for ducks",
+        link:" https://lokers778.github.io/About-Me/",
+    },
+    {
+        id: "7",
         imgUrl: "img/Projects/programing duck.jpeg",
         title: "Work in progress",
         text: "Other projects will be here soon....",
