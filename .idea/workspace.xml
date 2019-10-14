@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08792b6-c2ae-4a3e-898b-5dca3b683a9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/Projects/GameOfLife.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Projects/pong.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/build/out.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/build/out.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/data/ToDoList_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/data/ToDoList_data.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,6 +122,7 @@
       <workItem from="1562909819039" duration="39000" />
       <workItem from="1564086171500" duration="889000" />
       <workItem from="1565727382169" duration="906000" />
+      <workItem from="1571090128552" duration="260000" />
     </task>
     <servers />
   </component>
