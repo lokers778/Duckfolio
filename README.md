@@ -11,7 +11,7 @@ Duckfolio is my simple React portfolio project, helping me understand basic of R
   2.1.1 To Do list - basic to do with filter tasks function  
   2.2.2 Meme Generator - fetching images from api and generate some text on them  
   2.2.3 React Chat - my biggest project here, simple react chat which I create with chatkit library 
-  2.2.4 Calc - still working on it  
+  2.2.4 Unsplash gallery - grid gallery, ajax with axio
   2.2.5 ??? - my last app, still working on it
   
   2.2 Other projects - that section contains links to my other project  
@@ -19,7 +19,7 @@ Duckfolio is my simple React portfolio project, helping me understand basic of R
   2.3 Contact - you can find link to my github linkedin and form to contact me
   
 ## Road map
- 1. Add another app and finish calc app  
+ 1. Add last App
  2.Rebuild app with DRY    
  3.Add style for 404  
  4.Work with another projects and link them    

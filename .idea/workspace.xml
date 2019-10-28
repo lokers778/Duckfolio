@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08792b6-c2ae-4a3e-898b-5dca3b683a9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/components/Unsplash.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/build/out.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/build/out.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/data/ToDoList_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/data/ToDoList_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/Unsplash.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/Unsplash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/duckApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/duckApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +125,7 @@
       <workItem from="1564086171500" duration="889000" />
       <workItem from="1565727382169" duration="906000" />
       <workItem from="1571090128552" duration="548000" />
-      <workItem from="1572291880407" duration="246000" />
+      <workItem from="1572291880407" duration="1661000" />
     </task>
     <servers />
   </component>
