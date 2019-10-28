@@ -61,7 +61,7 @@ const projectData = [
         title: "Game Of Life",
         text: "My attempt to create Game of Life in vanilla JS, OPP. 0 player game, OPP ",
         quote:"..like in real life not all working the way it should",
-        link:"https://lokers778.github.io/GameOfLife/",
+        link:"https://lokers778.github.io/Game_of_Life/",
     },
     {
         id: "9",
