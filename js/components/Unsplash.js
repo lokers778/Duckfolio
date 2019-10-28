@@ -17,7 +17,7 @@ class Unsplash extends Component {
     }
 
     render() {
-        return (<div className="formUp" style={{marginTop: "10px"}}><SearchBar onSubmit={this.onSearchSubmit}/>Found:{this.state.images.length}
+        return (<div className="formUp" style={{marginTop: "10px"}}><SearchBar onSubmit={this.onSearchSubmit}/><ImageList images={this.state.images}/>
         </div>)
     }
 }
@@ -52,5 +52,16 @@ class SearchBar extends Component {
             </div>)
     }
 }
+
+const ImageList = (props)=>{
+    console.log(props.images)
+    const images= props.images.map((image)=>{
+        return <img src={image.urls.regular} alt={image.alt_description} key={image.id} />
+    });
+    console.log(images)
+    return <div>{images}</div>
+
+};
+
 
 export default Unsplash;
