@@ -6,15 +6,22 @@ header {
     height: 170px;
   }
 
+  @media #{$phone} {
+    height: 200px;
+  }
+
   .container {
     display: flex;
     height: 100%;
     color: $secondary-color;
     font-family: 'Audiowide', cursive;
 
-    @media #{$tablet} {
+    @media #{$tablet},
+    #{$phone} {
       display: block;
     }
+
+
   }
 
   .logoContainer {
@@ -25,6 +32,10 @@ header {
 
     @media #{$tablet} {
       height: 80%;
+    }
+
+    @media #{$phone} {
+      height: 40%;
     }
   }
 
@@ -39,6 +50,10 @@ header {
     @media #{$tablet} {
       font-size: 20px;
     }
+
+    @media #{$phone} {
+      font-size: 23px;
+    }
   }
 
   nav {
@@ -48,10 +63,17 @@ header {
     align-items: center;
     justify-content: space-between;
 
+
     @media #{$tablet} {
       width: 100%;
       justify-content: space-evenly;
       height: 20%;
+    }
+
+    @media #{$phone} {
+      width: 100%;
+      flex-direction: column;
+      height: 60%;
     }
 
     a {
@@ -72,6 +94,10 @@ header {
 
     @media #{$tablet} {
       transform: scale(0.5);
+    }
+
+    @media #{$phone} {
+      display: none;
     }
   }
 
