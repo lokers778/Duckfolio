@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b08792b6-c2ae-4a3e-898b-5dca3b683a9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/Unsplash.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/Unsplash.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,40 +16,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>compl</find>
-      <find>com</find>
-      <find>map</find>
-      <find>complete</find>
-      <find>toggle</find>
-      <find>con</find>
-      <find>delet</find>
-      <find>outl</find>
-      <find>fon</find>
-      <find>box</find>
-      <find>over</find>
-      <find>ToDoForm</find>
-      <find>15</find>
-      <find>left</find>
-      <find>background</find>
-      <find>shad</find>
-      <find>inp</find>
-      <find>bac</find>
-      <find>class</find>
-      <find>hre</find>
-      <find>userId</find>
-      <find>message-list</find>
-      <find>input</find>
-      <find>butto</find>
-      <find>button</find>
-      <find>list</find>
-      <find>duck</find>
-      <find>border</find>
-      <find>block</find>
-      <find>radius</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,7 +86,8 @@
       <workItem from="1565727382169" duration="906000" />
       <workItem from="1571090128552" duration="548000" />
       <workItem from="1572291880407" duration="1803000" />
-      <workItem from="1572296396869" duration="330000" />
+      <workItem from="1572296396869" duration="530000" />
+      <workItem from="1572473003315" duration="145000" />
     </task>
     <servers />
   </component>

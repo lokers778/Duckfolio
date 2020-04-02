@@ -1,8 +1,11 @@
 $main-color :#52524d;
 $secondary-color:#f69a10;
+$tablet:"(min-width: 480px) and (max-width: 1023px)";
+$phone:"(max-width: 479px)";
+
 //font-family: 'Audiowide', cursive;
-.container{
+.container {
   max-width: 1300px;
-  margin:0 auto;
+  margin: 0 auto;
   padding: 5px;
 }

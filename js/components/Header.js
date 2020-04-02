@@ -64,8 +64,10 @@ class Header extends Component {
         return (
             <header>
                 <div className="container">
-                    <Duck/>
-                    <Logo/>
+                    <div className="logoContainer">
+                        <Duck/>
+                        <Logo />
+                    </div>
                     <Nav/>
                 </div>
             </header>
