@@ -37,6 +37,15 @@
         min-height: 110px;
       }
 
+      @media #{$phone} {
+        width: 27vw;
+        height: 27vw;
+        margin-top: 130px;
+        margin-bottom: 130px;
+        min-width: 60px;
+        min-height: 60px;
+      }
+
       >div {
         position: absolute;
         width: 75%;
@@ -54,6 +63,10 @@
         border-radius: 50%;
         color: whitesmoke;
         font-size: 30px;
+
+        @media #{$phone} {
+          font-size: 18px;
+        }
 
         span {
           display: none;
@@ -109,8 +122,16 @@
           transition: 2s;
           font-size: 25px;
 
+          @media #{$phone} {
+            font-size: 18px;
+          }
+
           .icon {
             font-size: 45px;
+
+            @media #{$phone} {
+              font-size: 30px;
+            }
           }
 
           &:hover {
@@ -136,6 +157,10 @@
 
       @media #{$tablet} {
         font-size: 25px;
+      }
+
+      @media #{$phone} {
+        font-size: 20px;
       }
     }
 

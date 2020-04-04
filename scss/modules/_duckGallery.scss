@@ -51,6 +51,7 @@
       text-align: center;
       border-bottom-left-radius: 25%;
       border-bottom-right-radius: 25%;
+      overflow: hidden;
 
       @media #{$tablet} {
         height: 51px;
