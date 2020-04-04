@@ -1,6 +1,7 @@
 header {
   background-color: $main-color;
   height: 130px;
+  overflow: hidden;
 
   @media #{$tablet} {
     height: 170px;
@@ -8,6 +9,10 @@ header {
 
   @media #{$phone} {
     height: 200px;
+  }
+
+  h1 {
+    overflow: hidden;
   }
 
   .container {
