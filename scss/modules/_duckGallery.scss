@@ -5,6 +5,10 @@
     display: flex;
     justify-content: center;
     padding: 25px;
+
+    @media #{$phone} {
+      padding: 1px;
+    }
   }
 
   figure {
@@ -19,11 +23,20 @@
       height: 350px;
     }
 
+    @media #{$phone} {
+      height: 250px;
+      width: 100%;
+    }
+
     img {
       width: 100%;
       height: 100%;
       z-index: 2;
       border-radius: 10%;
+
+      @media #{$phone} {
+        border-radius: 0%;
+      }
     }
 
     figcaption {
@@ -41,6 +54,12 @@
       @media #{$tablet} {
         height: 51px;
         font-size: 16px;
+      }
+
+      @media #{$phone} {
+        height: 51px;
+        font-size: 15px;
+        border-radius: 0;
       }
     }
   }
