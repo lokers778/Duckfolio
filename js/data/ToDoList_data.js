@@ -68,6 +68,7 @@ const projectData = [{
         title: "Modern Libray",
         text: "This is my private React project - fetching data from GoogleBooks API by title/author.. and displaying them as a list. ( webpack,es6,sass)",
         quote: "Almost as good as normal book",
+        link: "https://lokers778.github.io/ModernLibray/",
     },
     {
         id: "9",
