@@ -46,7 +46,7 @@ class DuckApp extends Component {
                         <SingleApp name="fas fa-list" text='ToDoList' show={this.showApp} content={<ToDoListComponent/>}/>
                         <SingleApp name="fas fa-image" text='Meme Generator' show={this.showApp} content={<FetchComponent/>}/>
                         <SingleApp name="far fa-comment-dots" text="DuckChat" show={this.showApp} content={<DuckChat/>}/>
-                        <SingleApp name="fab fa-react" text='React App' show={this.showApp} content="React"/>
+                        <SingleApp name="fab fa-react" text='React App' />
                     </div>
                     <section className="AppDisplay"  style={{display:this.state.display}}><div className="AppContainer">{this.state.content}</div><button className="closeApp" onClick={this.closeApp}><i className="fas fa-times"></i></button></section>
                 </div>
