@@ -1,6 +1,6 @@
 # Duckfolio
 
-Duckfolio is my simple React portfolio project, helping me understand basic of React like state or props. This will contain 5 app (currently only 3 working) to show my understanding. In one section i will link my another projects and in another i will give little description about me my knowledge state ot future plans.  
+Duckfolio is my simple React portfolio project, helping me understand basic of React like state or props. This will contain 4 app  to show my understanding of React. In one section i will link my another projects and in another i will give little description about me my knowledge state and future plans.  
   
   ## Project Section
   1.Header and footer - they are static elements, header contains navlink with React Router that will generate main section
@@ -12,17 +12,14 @@ Duckfolio is my simple React portfolio project, helping me understand basic of R
   2.2.2 Meme Generator - fetching images from api and generate some text on them  
   2.2.3 React Chat - my biggest project here, simple react chat which I create with chatkit library 
   2.2.4 Unsplash gallery - grid gallery, ajax with axio
-  2.2.5 ??? - my last app, still working on it
   
   2.2 Other projects - that section contains links to my other project  
   
   2.3 Contact - you can find link to my github linkedin and form to contact me
   
-## Road map
- 1. Add last App
- 2.Rebuild app with DRY    
- 3.Add style for 404  
- 4.Work with another projects and link them    
+## Road map  
+ 1.Add style for 404  
+ 2.Work with another projects and link them    
    
 ## App demo
 
