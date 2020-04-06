@@ -1,0 +1,70 @@
+.formUp {
+    height: 100%;
+    width: 100%;
+
+    .field {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+
+        label {
+            text-align: center;
+            width: 100%;
+            align-self: center;
+            justify-self: flex-start;
+            text-align: center;
+            border-bottom: 2px whitesmoke solid;
+            color: white;
+            font-size: 25px;
+            text-shadow: -5px 5px 6px white;
+        }
+
+        input {
+            height: 40px;
+            outline: orange 1px solid;
+            background-color: #52524d;
+            color: white;
+            width: 100%;
+        }
+
+
+    }
+
+    img {
+        width: 270px;
+        height: 270px;
+
+        @media #{$tablet} {
+            width: 200px;
+            height: 200px;
+        }
+
+        @media #{$phone} {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    div:nth-child(2) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        row-gap: 10px;
+        overflow-y: scroll;
+        height: 100%;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        -ms-overflow-style: none;
+
+        @media #{$tablet} {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media #{$phone} {
+            grid-template-columns: 1fr;
+        }
+    }
+}
