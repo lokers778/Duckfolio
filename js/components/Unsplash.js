@@ -12,7 +12,7 @@ class Unsplash extends Component {
                 Authorization: "Client-ID 55f29c5b87454a3ebad4bb84e52136a8d41c0c8270fbdc5d0613e227e13575d4"
             }
 
-        }).then(response=>{this.setState({images:response.data.results})}).then(()=>{console.log(this.state.images)})
+        }).then(response=>{this.setState({images:response.data.results})})
 
     }
 
@@ -54,11 +54,9 @@ class SearchBar extends Component {
 }
 
 const ImageList = (props)=>{
-    console.log(props.images)
     const images= props.images.map((image)=>{
         return <img src={image.urls.regular} alt={image.alt_description} key={image.id} />
     });
-    console.log(images)
     return <div>{images}</div>
 
 };
