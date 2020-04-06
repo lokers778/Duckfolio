@@ -3,21 +3,35 @@
   height: 100%;
   padding: 0px 20px;
   font-size: 25px;
+
+  @media #{$phone} {
+    padding: 0px;
+  }
+
   .lists {
     height: 90%;
     display: flex;
+
+    @media #{$phone} {
+      flex-direction: column;
+      font-size: 20px;
+    }
+
     .rooms-list {
       padding: 5px;
       height: 100%;
       width: 30%;
       background-color: $main-color;
       overflow-y: scroll;
-      overflow-x:hidden;
+      overflow-x: hidden;
       text-align: center;
-      color:$secondary-color;
+      color: $secondary-color;
+
+
       &::-webkit-scrollbar {
         width: 10px;
       }
+
       &::-webkit-scrollbar-track {
         background: $main-color;
       }
@@ -31,140 +45,215 @@
       &::-webkit-scrollbar-thumb:hover {
         background: $secondary-color;
       }
-      h3{
-font-size: 35px;
+
+      h3 {
+        font-size: 35px;
       }
-      .room , .roomactive{
+
+      .room,
+      .roomactive {
         margin: 20px 0;
         transition: 1s;
         font-weight: 500;
-        &:hover{
-          cursor:pointer;
-          color:goldenrod;
+
+        @media #{$phone} {
+          margin: 1px 0;
+        }
+
+        &:hover {
+          cursor: pointer;
+          color: goldenrod;
           transition: 2s;
           font-weight: 900;
         }
-        li{
+
+        li {
           list-style: none;
         }
 
       }
-      .roomactive{
-        color:gold;
+
+      .roomactive {
+        color: gold;
         transition: 1s;
         text-decoration: underline overline;
-        &:hover{
-          cursor:pointer;
-          color:yellow;
+
+        &:hover {
+          cursor: pointer;
+          color: yellow;
           transition: 2s;
           font-weight: 900;
-          text-decoration: underline overline ;
+          text-decoration: underline overline;
         }
       }
 
-    }
-    }
-
-    .message-list {
-      height: 100%;
-      width: 70%;
-      background-color: grey;
-      padding: 20px;
-      overflow-y: scroll;
-      overflow-x:hidden ;
-      .join-room{
+      @media #{$phone} {
         width: 100%;
-        height: 100%;
-        color:$secondary-color;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 50px;
-        font-weight: 900;
-
+        padding-top: 5%;
+        height: 25%;
+        font-size: 15px;
       }
-      &::-webkit-scrollbar {
-        width: 10px;
+    }
+  }
+
+  .message-list {
+    height: 100%;
+    width: 70%;
+    background-color: grey;
+    padding: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    @media #{$phone} {
+      height: 75%;
+      width: 100%;
+      padding: 5px;
+    }
+
+    .join-room {
+      width: 100%;
+      height: 100%;
+      color: $secondary-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+      font-weight: 900;
+
+    }
+
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+
+
+    &::-webkit-scrollbar-track {
+      background: grey;
+    }
+
+
+    &::-webkit-scrollbar-thumb {
+      background: $main-color;
+    }
+
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: $secondary-color;
+    }
+
+    .message {
+      margin: 20px 10px;
+
+      @media #{$phone} {
+        margin: 10px 5px;
       }
 
+      .user {
+        color: $main-color;
+        font-size: 15px;
+        padding: 0 10px;
 
-      &::-webkit-scrollbar-track {
-        background: grey;
-      }
-
-
-      &::-webkit-scrollbar-thumb {
-        background: $main-color;
-      }
-
-
-      &::-webkit-scrollbar-thumb:hover {
-        background: $secondary-color;
-      }
-      .message{
-        margin: 20px 10px;
-        .user{
-          color:$main-color;
-          font-size: 15px;
-          padding: 0 10px;
+        @media #{$phone} {
+          font-size: 10px;
         }
-        .messageText{
-          font-size: 20px;
-          background-color: #52524d;
-          color:white;
-          border-radius:  10px;
-          width: fit-content;
-         padding: 0 10px;
-          word-break: break-word;
+      }
+
+      .messageText {
+        font-size: 20px;
+        background-color: #52524d;
+        color: white;
+        border-radius: 10px;
+        width: fit-content;
+        padding: 0 10px;
+        word-break: break-word;
+
+        @media #{$phone} {
+          padding: 0 5px;
+          font-size: 15px;
         }
       }
     }
+  }
+
   .inputs {
     height: 10%;
     display: flex;
     justify-content: center;
-  .new-room-form{
-    order: 1;
-    height: 100%;
-    width: 30%;
-    form{
-      height:100% ;
+
+    @media #{$phone} {
+      flex-direction: column;
     }
-  input{
-    width: 80%;
-    height: 100%;
-    padding: 5px;
-    font-size: 20px;
-    background-color:white;
-    border: $secondary-color 2px solid;
-  }
-    button{
-      width: 20%;
+
+    .new-room-form {
+      order: 1;
       height: 100%;
-      font-size: 20px;
-      background-color:$secondary-color;
-      border: $secondary-color 2px solid;
-      color:white;
-      transition: 1.5s;
-      box-shadow: 1px 5px 5px 2px rgba(0,0,0,0.75);
-      &:hover{
-        background-color: darkgoldenrod;
+      width: 30%;
+
+      @media #{$phone} {
+        width: 100%;
+        height: 50%;
+        font-size: 15px;
+      }
+
+      form {
+        height: 100%;
+      }
+
+      input {
+        width: 80%;
+        height: 100%;
+        padding: 5px;
+        font-size: 20px;
+        background-color: white;
+        border: $secondary-color 2px solid;
+
+        @media #{$phone} {
+          font-size: 15px;
+        }
+      }
+
+      button {
+        width: 20%;
+        height: 100%;
+        font-size: 20px;
+        background-color: $secondary-color;
+        border: $secondary-color 2px solid;
+        color: white;
         transition: 1.5s;
-        cursor: pointer;
-        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+        box-shadow: 1px 5px 5px 2px rgba(0, 0, 0, 0.75);
+
+        &:hover {
+          background-color: darkgoldenrod;
+          transition: 1.5s;
+          cursor: pointer;
+          box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+        }
       }
     }
-  }
-    .sendMessage{
+
+    .sendMessage {
       order: 2;
       width: 70%;
-      input{
+
+      @media #{$phone} {
+        width: 100%;
+        height: 50%;
+        font-size: 15px;
+      }
+
+      input {
         width: 100%;
         height: 100%;
         padding: 5px;
         font-size: 20px;
-        background-color:white;
+        background-color: white;
         border: $secondary-color 2px solid;
+
+        @media #{$phone} {
+          font-size: 15px;
+        }
+
+
       }
     }
   }
