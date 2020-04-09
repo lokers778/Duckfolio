@@ -47,16 +47,17 @@ class AboutMeComponent extends Component {
                                 future , i am able to give my time and sleep for this. So for a long time i was going to
                                 college and learning on almost every evening. When i decide this is not enough and
                                 sometimes its harder than it should because i dont have time i started thinking about
-                                bootcamp.. and there i am</p>
+                                bootcamp, another one.. and there i am </p>
                         </div>
                     )}
                     {this.state.currentDisplay == 2 && (
                         <div className="Education">
                             <ul>
+                                <li>In 2020 I successfully finished CodersCamp Bootcamp</li>
                                 <li>In 2019 I successfully finished Coders Lab IT SCHOOL</li>
                                 <li>In 2014 I finished High School</li>
                                 <li>Since 2015 I study Biotechnology on Poznań University
-                                    of Life Sciences. Only defence my Engineer's Thesis left
+                                    of Life Sciences. Only defence my Engineer's Thesis left.
                                 </li>
                             </ul>
                         </div>
@@ -74,8 +75,8 @@ class AboutMeComponent extends Component {
                             <p>
                                 This year i want to practice front-end technology, and get better with my
                                 English-Speaking skills. I have hope to get more experience and increase my work speed.
-                                In future i would love to know backed understanding communication between backend and
-                                frontend, and get EITCA computer graphics diploma
+                                In future i would love to have better backed understanding communication between backend and
+                                frontend currenty i can work only in Node.Js with noSQL database MongoDB, and get EITCA computer graphics diploma.
                             </p>
                         </div>
                     )}
@@ -83,7 +84,7 @@ class AboutMeComponent extends Component {
                         <div className="Hobby">
                             <p>From kid i'm fascinated with computer games, fantasy, animals.. when i got older i love
                                 them all even better but i added to this group some anime/ manga , travels, jogging and
-                                programing.</p>
+                                programing. In free time i like to pretend that I am a game developer :)</p>
                         </div>
                     )}
 
@@ -161,7 +162,7 @@ class MySkillsComponent extends Component {
                         </div>
                     )}
                     {this.state.currentDisplay == 2 && (
-                        <div className="jsJquery">
+                        <div className="js/Jquery">
                             <ul>
                                 <li>
                                     I know basic Java Script operations, loops ,control flow.
@@ -181,6 +182,9 @@ class MySkillsComponent extends Component {
                                 </li>
                                 <li>
                                     I have basic knowledge about jQuerry
+                                </li>
+                                <li>
+                                    I can create database in MongoDB and create backend with NodeJs and express.
                                 </li>
                             </ul>
                         </div>
@@ -204,7 +208,7 @@ class MySkillsComponent extends Component {
                                     i have knowledge about React Router v4
                                 </li>
                                 <li>
-                                    I am still learning and practicing this framework with
+                                    I am learning Redux and React hooks.
                                 </li>
                             </ul>
                         </div>
