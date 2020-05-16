@@ -63,7 +63,7 @@ const projectData = [{
         link: "https://lokers778.github.io/Game_of_Life/",
     },
     {
-        id: "10",
+        id: "9",
         imgUrl: "img/Projects/Modern Libray.png",
         title: "Modern Libray",
         text: "This is my private React project - fetching data from GoogleBooks API by title/author.. and displaying them as a list. ( webpack,es6,sass)",
@@ -71,7 +71,15 @@ const projectData = [{
         link: "https://lokers778.github.io/ModernLibray/",
     },
     {
-        id: "9",
+        id: "10",
+        imgUrl: "img/Projects/POKEDEX.png",
+        title: "Pokedex",
+        text: "React Project with sass -working with PokeAPI ",
+        quote: "Catch them all!!! /*only if we have them in our database",
+        link: " https://lokers778.github.io/Pokedex/",
+    },
+    {
+        id: "11",
         imgUrl: "img/Projects/programing duck.jpeg",
         title: "Work in progress",
         text: "Other projects will be here soon....",

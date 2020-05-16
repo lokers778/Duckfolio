@@ -3,6 +3,7 @@ import CalculatorApp from "./Calculator";
 import ToDoListComponent from "./ToDoList";
 import FetchComponent from "./Fetch"
 import DuckChat from "./DuckChat"
+import DuckChatNew from "./DuckChatNew"
 import Unsplash from "./Unsplash";
 
 class SingleApp extends Component{
@@ -45,7 +46,7 @@ class DuckApp extends Component {
                         <SingleApp name="fas fa-question" text='Unsplash Gallery' show={this.showApp.bind(this)} content={<Unsplash/>}/>
                         <SingleApp name="fas fa-list" text='ToDoList' show={this.showApp} content={<ToDoListComponent/>}/>
                         <SingleApp name="fas fa-image" text='Meme Generator' show={this.showApp} content={<FetchComponent/>}/>
-                        <SingleApp name="far fa-comment-dots" text="DuckChat" show={this.showApp} content={<DuckChat/>}/>
+                        <SingleApp name="far fa-comment-dots" text="DuckChat" show={this.showApp} content={<DuckChatNew/>}/>
                         <SingleApp name="fab fa-react" text='React App' />
                     </div>
                     <section className="AppDisplay"  style={{display:this.state.display}}><div className="AppContainer">{this.state.content}</div><button className="closeApp" onClick={this.closeApp}><i className="fas fa-times"></i></button></section>
