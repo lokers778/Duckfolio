@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import ReactDOM from "react-dom";
 import Talk from "talkjs";
 
+//due to covi-19 chatkit from pusher was close currently i trying to move app to talk js
 class DuckChatNew extends React.Component {
     constructor(props) {
       super(props)

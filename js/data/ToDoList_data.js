@@ -48,6 +48,14 @@ const projectData = [{
     },
     {
         id: "7",
+        imgUrl: "img/Projects/Modern Libray.png",
+        title: "Modern Libray",
+        text: "This is my private React project - fetching data from GoogleBooks API by title/author.. and displaying them as a list. ( webpack,es6,sass)",
+        quote: "Almost as good as normal book",
+        link: "https://lokers778.github.io/ModernLibray/",
+    },
+    {
+        id: "8",
         imgUrl: "img/Projects/pong.png",
         title: "BreakOutGame",
         text: "Made with vanilla js and Canvas simple breakoutGame, 4 level still contains some bugs",
@@ -55,21 +63,14 @@ const projectData = [{
         link: " https://lokers778.github.io/BreakOutGame/",
     },
     {
-        id: "8",
+        id: "9",
         imgUrl: "img/Projects/GameOfLife.png",
         title: "Game Of Life",
         text: "My attempt to create Game of Life in vanilla JS, OPP. 0 player game, OPP ",
         quote: "..like in real life not all working the way it should",
         link: "https://lokers778.github.io/Game_of_Life/",
     },
-    {
-        id: "9",
-        imgUrl: "img/Projects/Modern Libray.png",
-        title: "Modern Libray",
-        text: "This is my private React project - fetching data from GoogleBooks API by title/author.. and displaying them as a list. ( webpack,es6,sass)",
-        quote: "Almost as good as normal book",
-        link: "https://lokers778.github.io/ModernLibray/",
-    },
+
     {
         id: "10",
         imgUrl: "img/Projects/POKEDEX.png",
